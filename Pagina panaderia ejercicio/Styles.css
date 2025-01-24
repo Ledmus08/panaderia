@@ -1,0 +1,410 @@
+.box {
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    margin: 0;
+    padding-top: 180px;
+    background-color: #df95d7;
+    background-image: url("https://mixpan.com.br/wp-content/uploads/2022/05/Curiosidades-Pao-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom-left-radius: 35px; /* Redondea la esquina inferior izquierda */
+    border-bottom-right-radius: 35px;
+}
+
+p {
+    text-align: justify;
+    color: #5a2a5c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Titulo1 {
+    text-align: center;
+    font-size: 44px;
+    color: #fcfcfc;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 4px #000000;
+    margin-bottom: -8px;
+}
+
+.Titulo2 {
+    text-align: center;
+    font-size: 44px;
+    color: #fcfcfc;
+    font-size: 155%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 4px #000000;
+}
+
+.Contacto1 {
+    padding: 10px;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 15px;
+    margin-top:-14px;
+    margin-bottom: 14px;
+    border-radius: 55px;
+    background-color: #f4c7f2;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+
+.Contacto1:hover {
+    background-color: #5a2a5c;
+    color: #f8efef;
+    transition: background-color 0.3s, color 0.3s;
+    border-color: #f4c7f2;
+}
+
+.Contacto2:hover {
+    background-color: #5a2a5c;
+    color: #f8efef;
+    transition: background-color 0.3s, color 0.3s;
+    border-color: #f4c7f2;
+}
+
+.Contacto3:hover {
+    background-color: #5a2a5c;
+    color: #f8efef;
+    transition: background-color 0.3s, color 0.3s;
+    border-color: #f4c7f2;
+}
+
+.Contacto2 {
+    padding: 10px;
+    margin-right: 15px;
+    margin-top:-14px;
+    margin-bottom: 14px;
+    border-radius: 55px;
+    background-color: #f4c7f2;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+}
+
+.Contacto3 {
+    padding: 10px;
+    margin-top:-14px;
+    margin-bottom: 14px;
+    border-radius: 55px;
+    background-color: #f4c7f2;
+    border: none;
+}
+
+.inicio {
+    padding: 10px;
+    margin-left: -260px;
+    margin-right: 150px;
+    margin-top:-14px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: #d47cca;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #5a2a5c; 
+}
+
+.inicio:hover {
+    background-color: #5a2a5c;
+    color: #f8efef;
+    transition: background-color 0.3s, color 0.3s;
+    border-color: #f4c7f2;
+}
+
+body { 
+    background-color: #d47cca;
+    margin: 0;
+}
+
+header {
+    padding-top: 30px;
+    background-color: #f4c7f2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre los elementos */
+    align-items: center;
+    padding: 50px;
+    padding-left: 24%;
+}
+
+.nav-list {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Coloca los elementos en fila */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+.nav-list a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #5a2a5c;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-list a:hover {
+    color: #bb1ba8; /* Color al pasar el mouse */
+}
+
+.history-section {
+    display: flex;
+    gap: 20px; /* Espaciado entre imágenes y texto */
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 10%;
+    background-color: #f4c7f2;
+    margin: 130px;
+    border-radius: 40px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaciado entre las imágenes */
+}
+
+.image {
+    width: 300px; /* Tamaño fijo para las imágenes */
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    max-width: 500px;
+    padding-left: 40px;
+}
+
+.text-content h2 {
+    color: #5a2a5c; /* Color personalizado del título */
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    padding-left: 150px;
+    background-color: #ffe0ff;
+    color: #5a2a5c;
+    text-decoration: none;
+    border: 2px solid #5a2a5c;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    padding-left: 30px;
+    margin-left: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #5a2a5c;
+    color: #f8efef;
+}
+
+.productos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.productos h1 {
+    font-size: 2.5rem;
+    color: #5a2a5c;
+    margin-bottom: 60px;
+    margin-top: -50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 16px #e266e2;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: #d47cca;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+    border-radius: 40px;
+}
+
+.producto {
+    background-color: #eaaee5;
+    border: 1px solid #d47cca;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 40px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto,
+    border-bottom: 2px solid #d47cca;
+    border-radius: 40px;
+}
+
+.producto h2 {
+    font-size: 1.5rem;
+    color: #5a2a5c; /* Color marrón elegante */
+    margin: 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 16px #e266e2;
+    font-size: 30px;
+}
+
+.producto .listaproductos {
+    font-size: 0.9rem;
+    color: #5a2a5c;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 16px #e266e2;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+.listaproductos:hover {
+    background-color: #5a2a5c;
+    color: #f8efef;
+}
+
+.producto::before,
+.producto::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    border: 1px solid #eaaee5; /* Color dorado tenue */
+    top: 0;
+}
+
+.producto::before {
+    left: -15px;
+}
+
+.producto::after {
+    right: -15px;
+}
+
+.map-container {
+    width: 100%; /* Hace que se ajuste al contenedor */
+    max-width: 800px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el mapa */
+    border-radius: 25px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que los bordes redondeados funcionen */
+    margin-bottom: 80px;
+}
+
+.map-container iframe {
+    width: 100%; /* Ajusta el iframe al contenedor */
+    height: 400px; /* Altura fija o ajustable */
+    border: none; /* Quita el borde del iframe */
+}
+
+.ubicacionmapa {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #5a2a5c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 16px #e266e2;
+}
+
+.storytext {
+    text-align: justify;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.story {
+    background-color: #ffe0ff;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 45px;
+}
+
+footer {
+    background-color: #f4c7f2;; /* Color de fondo gris oscuro */
+    color: #d47cca;
+    padding: 20px;
+    font-family: sans-serif; /*Fuente general */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye las secciones horizontalmente */
+    flex-wrap: wrap; /* Permite que las secciones se ajusten a pantallas más pequeñas */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.footer-section {
+    text-align: center; /* Centra el texto dentro de cada sección */
+    margin-bottom: 20px; /* Espacio entre secciones en pantallas pequeñas */
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #d47cca;
+}
+
+.footer-logo {
+    max-width: 150px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los íconos sociales */
+    height: 30px;
+    margin: 0 5px; /* Espacio entre íconos */
+}
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+      border-top: 1px solid #555; /*Linea divisoria superior */
+      font-size: smaller; /* Tamaño de letra más pequeño */
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column; /* Apila las secciones verticalmente */
+    text-align: center;
+    color: #d47cca;
+    }
+}
